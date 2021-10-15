@@ -1,0 +1,36 @@
+$radius: 3px;
+
+$highlight-bright: #4f626f;
+
+/*--- Context & pop-up menu styles ---*/
+
+QComboBox QAbstractItemView,
+QMenu {
+  padding: $radius * 2;
+  background: palette(window);
+  border: 1px solid palette(light);
+}
+
+QMenu::item {
+  padding: $radius $radius * 6 $radius $radius * 2;
+  border-radius: $radius;
+}
+
+QMenu::separator {
+  background-color: palette(light);
+  border: $radius solid palette(window);
+  height: 1px;
+}
+
+QMenu::item:selected {
+  background-color: $highlight-bright;
+}
+
+QMenu::item:disabled {
+  color: palette(light);
+}
+
+/* Fixes padding for checkable menu items */
+QMenu::item:checked {
+  padding-left: $radius * 2;
+}

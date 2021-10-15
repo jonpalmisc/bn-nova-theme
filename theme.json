@@ -1,0 +1,113 @@
+{
+  "name": "Nova",
+  "style": "Fusion",
+
+  "styleSheet": "/* STYLESHEET */",
+
+  "colors": {
+    "base0": "#151616",
+    "base1": "#1B1C1C",
+    "base2": "#2F3032",
+    "base3": "#454749",
+    "base4": "#A8ACAF",
+    "base5": "#D7DEE4",
+    "base6": "#FFFFFF",
+
+    "blue": "#93BEDD",
+    "yellow": "#E8D2A9",
+    "green": "#BACDA5",
+    "red": "#DFB4B6",
+
+    "highlight": "#39444B",
+    "highlight-bright": "#4F626F"
+  },
+
+  "palette": {
+    "Window": "base2",
+    "WindowText": "base5",
+    "Base": "base1",
+    "AlternateBase": "base1",
+    "ToolTipBase": "base2",
+    "ToolTipText": "base5",
+    "Text": "base5",
+    "Button": "base2",
+    "ButtonText": "base5",
+    "BrightText": "base6",
+    "Link": "blue",
+    "Highlight": "highlight-bright",
+    "HighlightedText": "base6",
+    "base5": "base3"
+  },
+
+  "disabledPalette": {
+    "Button": ["~", "base1", "base2", 191],
+    "ButtonText": "base3",
+    "Text": "base4",
+    "WindowText": "base4"
+  },
+
+  "theme-colors": {
+    "modifiedColor": "base6",
+    "insertedColor": "base6",
+    "notPresentColor": "base3",
+    "selectionColor": "highlight",
+    "outlineColor": "base5",
+
+    "addressColor": "green",
+    "registerColor": "blue",
+    "numberColor": "green",
+    "codeSymbolColor": "yellow",
+    "dataSymbolColor": "red",
+    "stackVariableColor": "base5",
+    "importColor": "red",
+    "stringColor": "green",
+    "typeNameColor": "blue",
+    "fieldNameColor": "yellow",
+    "keywordColor": "blue",
+    "uncertainColor": "base4",
+    "annotationColor": "base4",
+    "opcodeColor": "base4",
+
+    "graphBackgroundDarkColor": "base1",
+    "graphBackgroundLightColor": "base0",
+    "graphNodeDarkColor": "base2",
+    "graphNodeLightColor": "base2",
+    "graphNodeOutlineColor": "base3",
+
+    "trueBranchColor": "green",
+    "falseBranchColor": "red",
+    "unconditionalBranchColor": "blue",
+
+    "altTrueBranchColor": "blue",
+    "altFalseBranchColor": "yellow",
+    "altUnconditionalBranchColor": "base3",
+
+    "backgroundHighlightDarkColor": "base1",
+    "backgroundHighlightLightColor": ["~", "base1", "base2", 127],
+    "boldBackgroundHighlightDarkColor": "base3",
+    "boldBackgroundHighlightLightColor": "base3",
+    "alphanumericHighlightColor": "base6",
+    "printableHighlightColor": "base6",
+    "instructionHighlightColor": "highlight",
+    "tokenHighlightColor": "highlight-bright",
+
+    "linearDisassemblyFunctionHeaderColor": "base2",
+    "linearDisassemblyBlockColor": "base1",
+    "linearDisassemblyNoteColor": "base2",
+    "linearDisassemblySeparatorColor": "base3",
+
+    "scriptConsoleOutputColor": "base6",
+    "scriptConsoleErrorColor": "base6",
+    "scriptConsoleEchoColor": "base5",
+
+    "blueStandardHighlightColor": "blue",
+    "greenStandardHighlightColor": "green",
+    "cyanStandardHighlightColor": "base6",
+    "redStandardHighlightColor": "red",
+    "magentaStandardHighlightColor": "base6",
+    "yellowStandardHighlightColor": "yellow",
+    "orangeStandardHighlightColor": "base6",
+    "whiteStandardHighlightColor": "base5",
+    "blackStandardHighlightColor": "base1"
+  }
+}
