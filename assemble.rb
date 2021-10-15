@@ -3,14 +3,14 @@
 require 'sassc'
 
 # Read the SCSS stylesheet source
-scss_src = File.read("stylesheet.scss")
+scss_src = File.read("src/stylesheet.scss")
 
 # Compile to CSS and minify the result
 raw_css = SassC::Engine.new(scss_src).render
 raw_css.gsub!(/\s+/, " ")
 
 # Read the theme JSON source
-theme_json = File.read("theme.json")
+theme_json = File.read("src/theme.json")
 
 # Insert the compiled CSS
 theme_json.gsub!("/* STYLESHEET */", raw_css)

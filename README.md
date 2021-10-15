@@ -1,6 +1,6 @@
 # Nova Theme
 
-![Theme Preview](banner.png)
+![Theme Preview](img/banner.png)
 
 ## Installation
 
