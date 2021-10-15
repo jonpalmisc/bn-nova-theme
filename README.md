@@ -2,12 +2,15 @@
 
 ![Theme Preview](img/banner.png)
 
+[Download](https://github.com/jonpalmisc/bn-nova-theme/releases)
+
 ## Installation
 
 This theme uses stylesheets to a considerable extent, and therefore utilizes a
 small "assembly pipeline"; complete theme files are not included in the
 repository. You must either assemble the theme yourself or download a
-pre-assembled file from the releases page.
+pre-assembled file from the [releases
+page](https://github.com/jonpalmisc/bn-nova-theme/releases).
 
 ## Building
 
